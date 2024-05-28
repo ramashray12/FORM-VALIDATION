@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    
+}
+section>button{
+    position: relative;
+    left: 700px;
+    bottom: 70px;
+    height: 30px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+section>p{
+    position: absolute;
+    top: 6%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 1px white;
+    border: 1px solid white;
+
+}
+section>h1{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>form{
+    height: 450px;
+    width: 400px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 70px;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+}
+section>form>input{
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+section>form>button{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px white;
+    font-size: 15px;
+}
+
+section>form>button:hover{
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
